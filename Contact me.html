@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1><strong>CONTACT ME</strong></h1>
+    <h3>Joaquín Passerotti</h3>
+    <p>✆: +54 xx x xxx xxxx</p>
+    <p>@:<a href="mailto:xxxxxxxxxxxxxxxx@gmail.com?subject=Get to know you">xxxxxxxxxxxxxxxx@gmail.com</a></p>
+    <p>📍: Buenos Aires, Argentine</p>
+    <hr size="1" color="red">
+    <h3>OR, I CONTACT YOU:</h3>
+    <form action="mailto:passe_22@hotmail.com" method="post" enctype="text/plain">
+      <div class="Name">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" value="">
+      </div>
+      <div class="Email">
+        <label for="Email">Your Email:</label>
+        <input type="email" name="email" value="@gmail.com">
+      </div>
+      <br>
+      <div class="Contact Explanation">
+        <label for="Explanation">Your Message:</label>
+        <textarea name="yourMessage" rows="8" cols="80"></textarea>
+      </div>
+      <br>
+        <fieldset>
+          <legend>Contact Reason:</legend>
+          <div class="">
+              <input type="checkbox" name="Consultation" value="Consultation">
+              <label for="consult">Consultation</label>
+          </div>
+          <div class="">
+              <input type="checkbox" name="Intereview" value="Interview">
+              <label for="Interview">Interview</label>
+              <input type="date" name="contact's date preference" value="">
+              <label for="preference">👉 Your preference</label>
+<!--en la fecha me gustaría que aparezca establecida o por default la fecha del día siguiente al que está realizando la consulta-->
+          </div>
+          <div class="">
+              <input type="checkbox" name="Budget" value="Budget">
+              <label for="Budget">Budget</label>
+          </div>
+          <div class="">
+              <input type="checkbox" name="other" value="other">
+              <label for="other">Other:</label>
+              <input type="text" name="reason" value="" placeholder="Specified Please">
+          </div>
+        </fieldset>
+        <br>
+      <input type="submit" name="Send form" value="Send">
+    </form>
+  </body>
+
+</html>
